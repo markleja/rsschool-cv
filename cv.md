@@ -6,7 +6,7 @@
 * E-mail: [mark.leia9@gmail.com](mailto:mark.leia9@gmail.com)
 * Telegram: [marquiz_z](https://t.me/marquiz_z)
 * GitHub: [markleja](https://github.com/markleja/)
-
+* RSSchool Discord Nickname: Mark Shapiatsko (@markleja)
 ***
 ## About Me
 I am 24. In the fall of 2022, I started learning Frontend development myself, because I want to change job and start a new career. But when I started learn JS I ran into some difficulties. And here I am. I hope that RSS will help me.
