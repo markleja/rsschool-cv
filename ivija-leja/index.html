@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Ивия Лея</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230707023936">
+	<link rel="icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo logo-header">
+					<a href="#" class="logo-header__logo">Ивия Лея</a>
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto=".about" href="#" class="navigator menu__link">О себе</a></li>
+							<li class="menu__item"><a data-goto=".services" data-goto-header href="#" class="navigator menu__link">Услуги</a></li>
+							<li class="menu__item"><a data-goto=".blog" data-goto-header href="#" class="navigator menu__link">Блог</a></li>
+							<li class="menu__item"><a data-goto=".faq" data-goto-header href="#" class="navigator menu__link">FAQ</a></li>
+							<li class="menu__item"><a data-goto=".reviews" data-goto-header href="#" class="navigator menu__link">Отзывы</a></li>
+						</ul>
+					</nav>
+				</div>
+				<a data-goto=".get-in-touch" class="header__button button" href="#">Записаться</a>
+			</div>
+		</header>
+		<main class="page">
+			<div class="section page__about about">
+				<div class="about__container">
+					<div class="about__body body-about">
+						<div class="body-about__text text-about">
+							<h2 class="text-about__title">Я вам помогу,<br> <span>но на самом деле</span> <br> <span class="text _accent">вы поможете себе сами</span></h2>
+							<h1 class="text-about__subtitle">Лучший <span>#психолог_тытаксебе</span></h1>
+							<p class="text-about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo
+								nemo laudantium sit, aliquam laborum sequi? At minima blanditiis nostrum qui iusto sunt ea
+								molestiae cum. Quibusdam illo id voluptates.</p>
+						</div>
+						<div class="body-about__image">
+							<picture><source srcset="img/about.webp" type="image/webp"><img src="img/about.jpg" alt=""></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section page__services services">
+				<div class="services__container">
+					<div class="services__header">
+						<h2 class="services__title title">Услуги и направления работы</h2>
+						<h3 class="services__subtitle subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Distinctio doloribus aspernatur, est nisi consequatur maxime iste atque eius, soluta pariatur
+							officia.</h3>
+					</div>
+					<div class="services__body">
+						<div class="services__items">
+							<div data-card class="services__item item-services">
+								<div class="item-services__front front-item-services">
+									<div class="front-item-services__image">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+											<path d="M480 569q-71.462 0-116.231-44.769Q319 479.463 319 408t44.769-116.231Q408.538 247 480 247q71.463 0 116.231 44.769Q641 336.537 641 408t-44.769 116.231Q551.463 569 480 569ZM218 926q-31 0-52-21t-21-52v-35.606q0-41.394 19.906-70.915Q184.812 716.958 217 702q69-32 133.546-47.5 64.546-15.5 129.5-15.5T609 655q64 16 133 47 33.188 14.958 53.094 44.479T815 817.394V853q0 31-21 52t-52 21H218Z" />
+										</svg>
+									</div>
+									<h3 class="front-item-services__title">Индвидуальная консультация</h3>
+									<p class="front-item-services__p">Предназначена для помощи людям в их эмоциональных
+										проблемах
+									</p>
+									<svg class="item-services__tap-icon" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30">
+										<path d="M464.572 131.456q94.058 0 160.671 65.547 66.612 65.546 66.612 159.946 0 51.993-21.848 98.055-21.848 46.061-62 78.967h-40.855v-57.166q26.29-22.319 40.609-53.269 14.319-30.949 14.319-66.448 0-65.291-46.335-110.654-46.336-45.362-111.601-45.362-65.607 0-111.713 45.331-46.105 45.331-46.105 110.645 0 35.428 14.176 66.94t40.752 53.727v84.169q-57.645-29.304-91.095-83.859-33.449-54.555-33.449-121.139 0-94.337 66.385-159.883 66.385-65.547 161.477-65.547Zm-38.369 850.682q-17.577 0-33.086-6.66-15.508-6.659-27.066-18.376L157.978 748.949l58.009-59.877q14.622-14.594 32.879-22.213 18.257-7.62 37.895-2.54l74.493 17.123V358.949q0-43.238 29.83-73.094Q420.914 256 464.116 256q43.203 0 73.12 29.855 29.916 29.856 29.916 73.094V528h23.051q5.484 0 10.086 1.833 4.602 1.834 9.508 4.486l147.681 72q24.94 11.438 36.807 36.755t6.867 52.433l-36 218q-5.051 30.207-28.875 49.419-23.824 19.212-54.074 19.212h-256Zm-5.334-69.855h272.668l41.333-238.667-177.334-88h-59.999V358.949q0-15-9.167-24.167-9.167-9.166-24.167-9.166-15 0-24.167 9.166-9.167 9.167-9.167 24.167v407.333l-159.333-34-15.334 15.334 164.667 164.667Zm272.668 0H420.869h272.668Z" />
+									</svg>
+								</div>
+								<div class="item-services__back back-item-services">
+									<h4 class="back-item-services__title">Работаю по следующим направлениям:</h4>
+									<ul class="back-item-services__list">
+										<li class="back-item-services__li">трудности в отношениях с людьми;</li>
+										<li class="back-item-services__li">проблемы самооценки;</li>
+										<li class="back-item-services__li">личностное развитие;</li>
+										<li class="back-item-services__li">депрессивные состояния;</li>
+										<li class="back-item-services__li">детско-родительские отношения.</li>
+									</ul>
+									<svg class="item-services__tap-icon" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30">
+										<path d="M464.572 131.456q94.058 0 160.671 65.547 66.612 65.546 66.612 159.946 0 51.993-21.848 98.055-21.848 46.061-62 78.967h-40.855v-57.166q26.29-22.319 40.609-53.269 14.319-30.949 14.319-66.448 0-65.291-46.335-110.654-46.336-45.362-111.601-45.362-65.607 0-111.713 45.331-46.105 45.331-46.105 110.645 0 35.428 14.176 66.94t40.752 53.727v84.169q-57.645-29.304-91.095-83.859-33.449-54.555-33.449-121.139 0-94.337 66.385-159.883 66.385-65.547 161.477-65.547Zm-38.369 850.682q-17.577 0-33.086-6.66-15.508-6.659-27.066-18.376L157.978 748.949l58.009-59.877q14.622-14.594 32.879-22.213 18.257-7.62 37.895-2.54l74.493 17.123V358.949q0-43.238 29.83-73.094Q420.914 256 464.116 256q43.203 0 73.12 29.855 29.916 29.856 29.916 73.094V528h23.051q5.484 0 10.086 1.833 4.602 1.834 9.508 4.486l147.681 72q24.94 11.438 36.807 36.755t6.867 52.433l-36 218q-5.051 30.207-28.875 49.419-23.824 19.212-54.074 19.212h-256Zm-5.334-69.855h272.668l41.333-238.667-177.334-88h-59.999V358.949q0-15-9.167-24.167-9.167-9.166-24.167-9.166-15 0-24.167 9.166-9.167 9.167-9.167 24.167v407.333l-159.333-34-15.334 15.334 164.667 164.667Zm272.668 0H420.869h272.668Z" />
+									</svg>
+								</div>
+							</div>
+							<div data-card class="services__item item-services">
+								<div class="item-services__front front-item-services">
+									<div class="front-item-services__image">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+											<path d="M264 216q59 0 115.5 23.5T480 305q44-42 100.5-65.5T696 216q110 0 187 77t77 187q0 37-10.5 76T917 634q-13-14-29.5-23T853 596q17-30 25.5-58.925Q887 508.149 887 480q0-79.511-55.745-135.255Q775.511 289 696 289q-38 0-98.5 25T480 407q-57-68-117-93t-99-25q-79.511 0-135.255 55.745Q73 400.489 73 480q0 28.149 8.5 57.575Q90 567 107 597q-18 5-34.5 15T44 635q-23-39-33.5-78.295Q0 517.411 0 480q0-110 77-187t187-77ZM29 994q-16 0-26.5-10.487Q-8 973.025-8 958v-25q0-42.371 43.5-68.686Q79 838 150 838q7.694 0 15.847.5Q174 839 181 839q-9 19-14 39.764-5 20.764-5 43.236v72H29Zm240 0q-16 0-26.5-10.487Q232 973.025 232 958v-35.729q0-68.559 68.283-111.415Q368.567 768 480 768q111.4 0 179.7 42.856Q728 853.712 728 922.271V958q0 15.025-10.487 25.513Q707.025 994 692 994H269Zm529 0v-72.178Q798 900 793.5 879q-4.5-21-13.5-40 6 0 14.153-.5T810 838q71 0 114.5 26.314Q968 890.629 968 933v25q0 15.025-10.487 25.513Q947.025 994 932 994H798ZM149.956 810Q118 810 96.5 788.469 75 766.938 75 735q0-31 21.544-53t53.5-22Q182 660 203.5 682q21.5 22 21.5 53.5t-21.544 53q-21.545 21.5-53.5 21.5Zm660 0Q778 810 756.5 788.469 735 766.938 735 735q0-31 21.544-53 21.545-22 53.5-22Q842 660 863.5 682q21.5 22 21.5 53.5t-21.544 53q-21.545 21.5-53.5 21.5ZM480 739q-53 0-90.5-37.5T352 611q0-53 37.5-90.5T480 483q53 0 90.5 37.5T608 611q0 53-37.5 90.5T480 739Z" />
+										</svg>
+									</div>
+									<h3 class="front-item-services__title">Семейная консультация</h3>
+									<p class="front-item-services__p">Предназначена для помощи семьям
+									</p>
+									<svg class="item-services__tap-icon" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30">
+										<path d="M464.572 131.456q94.058 0 160.671 65.547 66.612 65.546 66.612 159.946 0 51.993-21.848 98.055-21.848 46.061-62 78.967h-40.855v-57.166q26.29-22.319 40.609-53.269 14.319-30.949 14.319-66.448 0-65.291-46.335-110.654-46.336-45.362-111.601-45.362-65.607 0-111.713 45.331-46.105 45.331-46.105 110.645 0 35.428 14.176 66.94t40.752 53.727v84.169q-57.645-29.304-91.095-83.859-33.449-54.555-33.449-121.139 0-94.337 66.385-159.883 66.385-65.547 161.477-65.547Zm-38.369 850.682q-17.577 0-33.086-6.66-15.508-6.659-27.066-18.376L157.978 748.949l58.009-59.877q14.622-14.594 32.879-22.213 18.257-7.62 37.895-2.54l74.493 17.123V358.949q0-43.238 29.83-73.094Q420.914 256 464.116 256q43.203 0 73.12 29.855 29.916 29.856 29.916 73.094V528h23.051q5.484 0 10.086 1.833 4.602 1.834 9.508 4.486l147.681 72q24.94 11.438 36.807 36.755t6.867 52.433l-36 218q-5.051 30.207-28.875 49.419-23.824 19.212-54.074 19.212h-256Zm-5.334-69.855h272.668l41.333-238.667-177.334-88h-59.999V358.949q0-15-9.167-24.167-9.167-9.166-24.167-9.166-15 0-24.167 9.166-9.167 9.167-9.167 24.167v407.333l-159.333-34-15.334 15.334 164.667 164.667Zm272.668 0H420.869h272.668Z" />
+									</svg>
+								</div>
+								<div class="item-services__back back-item-services">
+									<h4 class="back-item-services__title">Работаю по следующим направлениям:</h4>
+									<ul class="back-item-services__list">
+										<li class="back-item-services__li">трудности в отношениях с людьми;</li>
+										<li class="back-item-services__li">проблемы самооценки;</li>
+										<li class="back-item-services__li">личностное развитие;</li>
+										<li class="back-item-services__li">депрессивные состояния;</li>
+										<li class="back-item-services__li">детско-родительские отношения.</li>
+									</ul>
+									<svg class="item-services__tap-icon" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30">
+										<path d="M464.572 131.456q94.058 0 160.671 65.547 66.612 65.546 66.612 159.946 0 51.993-21.848 98.055-21.848 46.061-62 78.967h-40.855v-57.166q26.29-22.319 40.609-53.269 14.319-30.949 14.319-66.448 0-65.291-46.335-110.654-46.336-45.362-111.601-45.362-65.607 0-111.713 45.331-46.105 45.331-46.105 110.645 0 35.428 14.176 66.94t40.752 53.727v84.169q-57.645-29.304-91.095-83.859-33.449-54.555-33.449-121.139 0-94.337 66.385-159.883 66.385-65.547 161.477-65.547Zm-38.369 850.682q-17.577 0-33.086-6.66-15.508-6.659-27.066-18.376L157.978 748.949l58.009-59.877q14.622-14.594 32.879-22.213 18.257-7.62 37.895-2.54l74.493 17.123V358.949q0-43.238 29.83-73.094Q420.914 256 464.116 256q43.203 0 73.12 29.855 29.916 29.856 29.916 73.094V528h23.051q5.484 0 10.086 1.833 4.602 1.834 9.508 4.486l147.681 72q24.94 11.438 36.807 36.755t6.867 52.433l-36 218q-5.051 30.207-28.875 49.419-23.824 19.212-54.074 19.212h-256Zm-5.334-69.855h272.668l41.333-238.667-177.334-88h-59.999V358.949q0-15-9.167-24.167-9.167-9.166-24.167-9.166-15 0-24.167 9.166-9.167 9.167-9.167 24.167v407.333l-159.333-34-15.334 15.334 164.667 164.667Zm272.668 0H420.869h272.668Z" />
+									</svg>
+								</div>
+							</div>
+							<div data-card class="services__item item-services">
+								<div class="item-services__front front-item-services">
+									<div class="front-item-services__image">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+											<path d="M395 569q-25.375 0-41.688-19.5Q337 530 342 505l14-88q8-46 42.963-75t81.221-29q47.275 0 82.045 29Q597 371 605 417l15 88q4 25-12.312 44.5Q591.375 569 566 569H395Zm-257.39 74.979Q116 645 100.15 635.7q-15.85-9.3-20.35-29.18-1.8-8.52-.3-17.02t5.5-15.833q0 .916-1-5.167-4-3.5-6.5-9.104-2.5-5.603-3.5-12.557-2-10.553 2.733-20.625 4.734-10.071 11.934-18.386-1 0 2.666-1.794 1.912-17.145 14.48-29.09Q118.381 465 137 465q1.827 0 16.904 3l2.827-1q5.711-4 12.805-7 7.094-3 15.075-3 10.389 0 18.889 4t13.03 10.125q.906 0 1.358.437.453.438 1.359.438 12.683.875 22.898 7.771T257 499.444q1 5.881 1 12.27 0 6.389-2 11.286 0 2 .875 4.4Q263 533 267 541.173T271 558q0 4-6 19.19-1 1.905 0 3.81 1 4 1 14.882 0 20.471-16.022 34.284-16.023 13.813-39.083 13.813H137.61ZM807.956 643Q777 643 755 620.713q-22-22.286-22-53.583 0-10.13 3.538-20.146Q740.077 536.968 746 527l-27-23q-9-8-3-19t16.071-11h75.517q31.15 0 53.281 22.086Q883 518.173 883 549.188v18.797Q883 599 860.956 621q-22.045 22-53 22ZM29 824q-15.75 0-26.375-10.625T-8 786.7v-24.133q0-43.031 43.25-68.799Q78.5 668 150 668q8.12 0 16.188.25 8.067.25 14.812.75-9 19-14 39.444-5 20.445-5 43.556v72H29Zm240 0q-15.75 0-26.375-10.625T232 786.659v-34.341q0-69.265 68.283-111.792Q368.567 598 480 598q111.6 0 179.8 42.526Q728 683.053 728 752.318v34.341q0 16.091-10.612 26.716Q706.775 824 692 824H269Zm529 0v-72.178q0-22.044-4.5-43.433T780 668.727q5.745-.727 13.812-.727h16.27Q881 668 924.5 693.639t43.5 69.077V787q0 15.75-10.612 26.375Q946.775 824 932 824H798Z" />
+										</svg>
+									</div>
+									<h3 class="front-item-services__title">Работа в группах</h3>
+									<p class="front-item-services__p">Предназначена для помощи группам
+									</p>
+									<svg class="item-services__tap-icon" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30">
+										<path d="M464.572 131.456q94.058 0 160.671 65.547 66.612 65.546 66.612 159.946 0 51.993-21.848 98.055-21.848 46.061-62 78.967h-40.855v-57.166q26.29-22.319 40.609-53.269 14.319-30.949 14.319-66.448 0-65.291-46.335-110.654-46.336-45.362-111.601-45.362-65.607 0-111.713 45.331-46.105 45.331-46.105 110.645 0 35.428 14.176 66.94t40.752 53.727v84.169q-57.645-29.304-91.095-83.859-33.449-54.555-33.449-121.139 0-94.337 66.385-159.883 66.385-65.547 161.477-65.547Zm-38.369 850.682q-17.577 0-33.086-6.66-15.508-6.659-27.066-18.376L157.978 748.949l58.009-59.877q14.622-14.594 32.879-22.213 18.257-7.62 37.895-2.54l74.493 17.123V358.949q0-43.238 29.83-73.094Q420.914 256 464.116 256q43.203 0 73.12 29.855 29.916 29.856 29.916 73.094V528h23.051q5.484 0 10.086 1.833 4.602 1.834 9.508 4.486l147.681 72q24.94 11.438 36.807 36.755t6.867 52.433l-36 218q-5.051 30.207-28.875 49.419-23.824 19.212-54.074 19.212h-256Zm-5.334-69.855h272.668l41.333-238.667-177.334-88h-59.999V358.949q0-15-9.167-24.167-9.167-9.166-24.167-9.166-15 0-24.167 9.166-9.167 9.167-9.167 24.167v407.333l-159.333-34-15.334 15.334 164.667 164.667Zm272.668 0H420.869h272.668Z" />
+									</svg>
+								</div>
+								<div class="item-services__back back-item-services">
+									<h4 class="back-item-services__title">Работаю по следующим направлениям:</h4>
+									<ul class="back-item-services__list">
+										<li class="back-item-services__li">трудности в отношениях с людьми;</li>
+										<li class="back-item-services__li">проблемы самооценки;</li>
+										<li class="back-item-services__li">личностное развитие;</li>
+										<li class="back-item-services__li">депрессивные состояния;</li>
+										<li class="back-item-services__li">детско-родительские отношения.</li>
+									</ul>
+									<svg class="item-services__tap-icon" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30">
+										<path d="M464.572 131.456q94.058 0 160.671 65.547 66.612 65.546 66.612 159.946 0 51.993-21.848 98.055-21.848 46.061-62 78.967h-40.855v-57.166q26.29-22.319 40.609-53.269 14.319-30.949 14.319-66.448 0-65.291-46.335-110.654-46.336-45.362-111.601-45.362-65.607 0-111.713 45.331-46.105 45.331-46.105 110.645 0 35.428 14.176 66.94t40.752 53.727v84.169q-57.645-29.304-91.095-83.859-33.449-54.555-33.449-121.139 0-94.337 66.385-159.883 66.385-65.547 161.477-65.547Zm-38.369 850.682q-17.577 0-33.086-6.66-15.508-6.659-27.066-18.376L157.978 748.949l58.009-59.877q14.622-14.594 32.879-22.213 18.257-7.62 37.895-2.54l74.493 17.123V358.949q0-43.238 29.83-73.094Q420.914 256 464.116 256q43.203 0 73.12 29.855 29.916 29.856 29.916 73.094V528h23.051q5.484 0 10.086 1.833 4.602 1.834 9.508 4.486l147.681 72q24.94 11.438 36.807 36.755t6.867 52.433l-36 218q-5.051 30.207-28.875 49.419-23.824 19.212-54.074 19.212h-256Zm-5.334-69.855h272.668l41.333-238.667-177.334-88h-59.999V358.949q0-15-9.167-24.167-9.167-9.166-24.167-9.166-15 0-24.167 9.166-9.167 9.167-9.167 24.167v407.333l-159.333-34-15.334 15.334 164.667 164.667Zm272.668 0H420.869h272.668Z" />
+									</svg>
+								</div>
+							</div>
+							<div data-card class="services__item item-services">
+								<div class="item-services__front front-item-services">
+									<div class="front-item-services__image">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+											<path d="M479.92 610q-69.079 0-117.5-48.265Q314 513.471 314 443.908V298.077Q314 272 332.142 254q18.142-18 43.917-18 16.265 0 29.603 7.5Q419 251 428 264q9-13 22.357-20.5T480 236q16.286 0 29.643 7.5T532 264q9-13 22.471-20.5 13.47-7.5 29.882-7.5 26.02 0 44.333 18Q647 272 647 298.077v145.831q0 69.563-49 117.827Q549 610 479.92 610ZM218 966q-31 0-52-21t-21-52v-35.606q0-41.394 19.906-70.915Q184.812 756.958 217 742q69-32 133.546-47.5 64.546-15.5 129.5-15.5T609 695q64 16 133 47 33.188 14.958 53.094 44.479T815 857.394V893q0 31-21 52t-52 21H218Z" />
+										</svg>
+									</div>
+									<h3 class="front-item-services__title">Работа с подростками</h3>
+									<p class="front-item-services__p">Предназначена для помощи подросткам
+									</p>
+									<svg class="item-services__tap-icon" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30">
+										<path d="M464.572 131.456q94.058 0 160.671 65.547 66.612 65.546 66.612 159.946 0 51.993-21.848 98.055-21.848 46.061-62 78.967h-40.855v-57.166q26.29-22.319 40.609-53.269 14.319-30.949 14.319-66.448 0-65.291-46.335-110.654-46.336-45.362-111.601-45.362-65.607 0-111.713 45.331-46.105 45.331-46.105 110.645 0 35.428 14.176 66.94t40.752 53.727v84.169q-57.645-29.304-91.095-83.859-33.449-54.555-33.449-121.139 0-94.337 66.385-159.883 66.385-65.547 161.477-65.547Zm-38.369 850.682q-17.577 0-33.086-6.66-15.508-6.659-27.066-18.376L157.978 748.949l58.009-59.877q14.622-14.594 32.879-22.213 18.257-7.62 37.895-2.54l74.493 17.123V358.949q0-43.238 29.83-73.094Q420.914 256 464.116 256q43.203 0 73.12 29.855 29.916 29.856 29.916 73.094V528h23.051q5.484 0 10.086 1.833 4.602 1.834 9.508 4.486l147.681 72q24.94 11.438 36.807 36.755t6.867 52.433l-36 218q-5.051 30.207-28.875 49.419-23.824 19.212-54.074 19.212h-256Zm-5.334-69.855h272.668l41.333-238.667-177.334-88h-59.999V358.949q0-15-9.167-24.167-9.167-9.166-24.167-9.166-15 0-24.167 9.166-9.167 9.167-9.167 24.167v407.333l-159.333-34-15.334 15.334 164.667 164.667Zm272.668 0H420.869h272.668Z" />
+									</svg>
+								</div>
+								<div class="item-services__back back-item-services">
+									<h4 class="back-item-services__title">Работаю по следующим направлениям:</h4>
+									<ul class="back-item-services__list">
+										<li class="back-item-services__li">трудности в отношениях с людьми;</li>
+										<li class="back-item-services__li">проблемы самооценки;</li>
+										<li class="back-item-services__li">личностное развитие;</li>
+										<li class="back-item-services__li">депрессивные состояния;</li>
+										<li class="back-item-services__li">детско-родительские отношения.</li>
+									</ul>
+									<svg class="item-services__tap-icon" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30">
+										<path d="M464.572 131.456q94.058 0 160.671 65.547 66.612 65.546 66.612 159.946 0 51.993-21.848 98.055-21.848 46.061-62 78.967h-40.855v-57.166q26.29-22.319 40.609-53.269 14.319-30.949 14.319-66.448 0-65.291-46.335-110.654-46.336-45.362-111.601-45.362-65.607 0-111.713 45.331-46.105 45.331-46.105 110.645 0 35.428 14.176 66.94t40.752 53.727v84.169q-57.645-29.304-91.095-83.859-33.449-54.555-33.449-121.139 0-94.337 66.385-159.883 66.385-65.547 161.477-65.547Zm-38.369 850.682q-17.577 0-33.086-6.66-15.508-6.659-27.066-18.376L157.978 748.949l58.009-59.877q14.622-14.594 32.879-22.213 18.257-7.62 37.895-2.54l74.493 17.123V358.949q0-43.238 29.83-73.094Q420.914 256 464.116 256q43.203 0 73.12 29.855 29.916 29.856 29.916 73.094V528h23.051q5.484 0 10.086 1.833 4.602 1.834 9.508 4.486l147.681 72q24.94 11.438 36.807 36.755t6.867 52.433l-36 218q-5.051 30.207-28.875 49.419-23.824 19.212-54.074 19.212h-256Zm-5.334-69.855h272.668l41.333-238.667-177.334-88h-59.999V358.949q0-15-9.167-24.167-9.167-9.166-24.167-9.166-15 0-24.167 9.166-9.167 9.167-9.167 24.167v407.333l-159.333-34-15.334 15.334 164.667 164.667Zm272.668 0H420.869h272.668Z" />
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="services__groups groups-services">
+						<div class="groups-services__header">
+							<h2 class="groups-services__title">Терапевтические группы</h2>
+							<h3 class="groups-services__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Distinctio doloribus aspernatur, est nisi consequatur maxime iste atque eius, soluta pariatur
+								officia.</h3>
+						</div>
+						<div class="groups-services__body body-groups-services">
+							<div class="body-groups-services__group group-body-groups-services">
+								<div class="group-body-groups-services__text">
+									<h4 class="group-body-groups-services__title">Монализы</h4>
+									<p class="group-body-groups-services__discription">Lorem ipsum dolor sit amet consectetur
+										adipisicing
+										elit. Nemo, doloribus, alias aut reprehenderit voluptas repellendus molestias veniam, illo
+										sapiente est aperiam perferendis numquam quaerat porro distinctio ratione architecto eius
+										aliquam! Deserunt corrupti vitae explicabo rerum? Blanditiis maiores harum rem eligendi
+										maxime impedit totam reprehenderit earum. Eligendi aperiam obcaecati dolores corrupti
+										consequatur deleniti enim, quas, laudantium provident exercitationem perferendis sit iure.
+									</p>
+								</div>
+								<div class="group-body-groups-services__image group-body-groups-services__image_n">
+									<picture><source srcset="img/groups/mona-lisa.webp" type="image/webp"><img src="img/groups/mona-lisa.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="body-groups-services__group group-body-groups-services">
+								<div class="group-body-groups-services__text">
+									<h4 class="group-body-groups-services__title">Название второй группы</h4>
+									<p class="group-body-groups-services__discription">Lorem ipsum dolor sit amet consectetur
+										adipisicing
+										elit. Nemo, doloribus, alias aut reprehenderit voluptas repellendus molestias veniam, illo
+										sapiente est aperiam perferendis numquam quaerat porro distinctio ratione architecto eius
+										aliquam! Deserunt corrupti vitae explicabo rerum? Blanditiis maiores harum rem eligendi
+										maxime impedit totam reprehenderit earum. Eligendi aperiam obcaecati dolores corrupti
+										consequatur deleniti enim, quas, laudantium provident exercitationem perferendis sit iure.
+									</p>
+								</div>
+								<div class="group-body-groups-services__image group-body-groups-services__image_a group-body-groups-services__image_second">
+									<picture><source srcset="img/groups/02.webp" type="image/webp"><img src="img/groups/02.jpg" alt=""></picture>
+								</div>
+							</div>
+							<div class="body-groups-services__group group-body-groups-services">
+								<div class="group-body-groups-services__text">
+									<h4 class="group-body-groups-services__title">Название третьей группы</h4>
+									<p class="group-body-groups-services__discription">Lorem ipsum dolor sit amet consectetur
+										adipisicing
+										elit. Nemo, doloribus, alias aut reprehenderit voluptas repellendus molestias veniam, illo
+										sapiente est aperiam perferendis numquam quaerat porro distinctio ratione architecto eius
+										aliquam! Deserunt corrupti vitae explicabo rerum? Blanditiis maiores harum rem eligendi
+										maxime impedit totam reprehenderit earum. Eligendi aperiam obcaecati dolores corrupti
+										consequatur deleniti enim, quas, laudantium provident exercitationem perferendis sit iure.
+									</p>
+								</div>
+								<div class="group-body-groups-services__image group-body-groups-services__image_a group-body-groups-services__image_third">
+									<picture><source srcset="img/groups/03.webp" type="image/webp"><img src="img/groups/03.jpg" alt=""></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section page__blog blog">
+				<div class="blog__container">
+					<div class="blog__header header-blog">
+						<h3 class="header-blog__title title">Instagram</h3>
+						<h5 class="header-blog__subtitle subtitle"><a href="https://www.instagram.com/ivileya/" class="header-blog__link">Здесь</a> вы можете найти много полезных статей и написать мне!</h5>
+					</div>
+					<div class="blog__instagram instagram-blog">
+						<div class="instagram-blog__items">
+							<a target="_blank" href="https://www.instagram.com/p/Cl9aLO9ttNJ/" class="instagram-blog__item instagram-blog__item_big">
+								<picture><source srcset="img/instagram/06.webp" type="image/webp"><img src="img/instagram/06.jpg" alt=""></picture>
+							</a>
+							<a target="_blank" href="" class="instagram-blog__item">
+								<picture><source srcset="img/instagram/01.webp" type="image/webp"><img src="img/instagram/01.jpg" alt=""></picture>
+							</a>
+							<a target="_blank" href="" class="instagram-blog__item">
+								<picture><source srcset="img/instagram/02.webp" type="image/webp"><img src="img/instagram/02.webp" alt=""></picture>
+							</a>
+							<a target="_blank" href="" class="instagram-blog__item">
+								<picture><source srcset="img/instagram/03.webp" type="image/webp"><img src="img/instagram/03.webp" alt=""></picture>
+							</a>
+							<a target="_blank" href="" class="instagram-blog__item">
+								<picture><source srcset="img/instagram/04.webp" type="image/webp"><img src="img/instagram/04.webp" alt=""></picture>
+							</a>
+						</div>
+					</div>
+					<div class="blog__header header-blog">
+						<h3 class="header-blog__title title">Телеграм-блог "Таблетки"</h3>
+						<h5 class="header-blog__subtitle subtitle"><a href="https://t.me/Ivileya" class="header-blog__link">Здесь</a> вы можете найти много полезных статей и написать мне!</h5>
+					</div>
+					<div class="blog__telegram telegram-blog">
+						<div class="telegram-blog__items">
+							<div class="telegram-blog__card">
+								<a data-prlx-mouse-wrapper target="_blank" href="https://t.me/Ivileya/1593" class="telegram-blog__item">
+									<div class="telegram-blog__image">
+										<picture><source srcset="img/telegram/01.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="100" data-prlx-cy="200" src="img/telegram/01.jpg" alt=""></picture>
+									</div>
+									<div class="telegram-blog__body">
+										<h5 class="telegram-blog__title">Заголовок поста</h5>
+										<p class="telegram-blog__text">Когда мой сын был сладкимпирожочком обаятельным карапузом
+											лет четырех, я как нормальная молодая припизда-мать испытывала непреодолимую тягу
+											одевать его так, чтобы он выглядел прикольно и интересно: мне на радость, другим на
+											зависть. Удобно ли при этом ему, я не сильно задумывалась.
+											И вот мы поехали куда-то на автобусе. Сын у меня и так красивый, а тут в желтой куртке,
+											полосатых бриджах и солнечных очках фиолетового цвета. Госпадзибожамой, мать года!
+											В автобусе ко мне обратилась рядом сидящая женщина:
+											- Такие очки вредят детскому зрению, - сказала она добрым приятным голосом, - глаз еще
+											формируется, а цветной пластик искажает работу сетчатки и хрусталика. Я –
+											врач-офтальмолог, не советую носить детям такие очки.</p>
+										<div class="telegram-blog__button">Подробнее</div>
+									</div>
+								</a>
+							</div>
+							<div class="telegram-blog__card">
+								<a data-prlx-mouse-wrapper target="_blank" href="https://t.me/Ivileya/1500" class="telegram-blog__item">
+									<div class="telegram-blog__image">
+										<picture><source srcset="img/telegram/02.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="100" data-prlx-cy="200" src="img/telegram/02.jpg" alt=""></picture>
+									</div>
+									<div class="telegram-blog__body">
+										<h5 class="telegram-blog__title">Заголовок поста</h5>
+										<p class="telegram-blog__text">Я вспоминаю иногда эту надпись. Особенно в моменты,
+											когда надеюсь и ожидаю, что события и люди будут соответствовать моим
+											представлениям, что жизнь будет такой, как я мечтаю, но ничего для этого не делаю,
+											что другие будут вести себя так, как я хочу.
+											Я напоминаю себе, что от меня зависит не так много: мое умение регулировать свои
+											эмоции, заботиться о своем самочувствии и вовремя прислушиваться к внутреннему
+											голосу, не ломиться в закрытые двери, уметь принимать свои поражения и изменения
+											других, а для этого надо внимательно смотреть на мир, не тонуть в собственных
+											размышлениях о том, какой я несчастный и как мне себя жаль, и вовремя замечать
+											надпись, что это “ливт говно”, а не со мной что-то не так.</p>
+										<div class="telegram-blog__button">Подробнее</div>
+									</div>
+								</a>
+							</div>
+							<div class="telegram-blog__card">
+								<a data-prlx-mouse-wrapper target="_blank" href="https://t.me/Ivileya/1537" class="telegram-blog__item">
+									<div class="telegram-blog__image">
+										<picture><source srcset="img/telegram/03.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="100" data-prlx-cy="200" src="img/telegram/03.jpg" alt=""></picture>
+									</div>
+									<div class="telegram-blog__body">
+										<h5 class="telegram-blog__title">Заголовок поста</h5>
+										<p class="telegram-blog__text">Анна родилась в бедной семье в 1860, где-то в Америке.
+											Образования никакого не получила, вышла замуж в 27 лет, за такого же бедняка, из 10
+											рожденных детей, выжило пять. Всю она жизнь трудилась, а в 67 лет, типа на пенсию
+											вышла. Муж помер, сил прежних нет, и стала бабушка грустить и впадать в уныние.
+											Известный факт, что человек незанятый, начинает много думать, а от этого много
+											грустить. По совету дочери стала Анна вышивать. И так у нее ловко получалось! но с
+											годами артрит развился так сильно, что от вышивания пришлось отказаться. Только
+											собралась Анна вновь загрустить, как сестра ей говорит: «Ну если у тебя нитками
+											получалось картины создавать, то должно и красками выходить?» </p>
+										<div class="telegram-blog__button">Подробнее</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section page__faq faq">
+				<div class="faq__container">
+					<h3 class="faq__title title">
+						Ответы на часто задаваемые вопросы
+					</h3>
+					<div data-spollers data-one-spoller class="faq__spollers spollers-faq spollers">
+						<div class="spollers-faq__item spollers__item">
+							<button type="button" data-spoller class="spollers-faq__title spollers__title">Что такое
+								экзистанциальная терапия?</button>
+							<div class="spollers-faq__body spollers__body"> Это направление в психотерапии, ставящее целью
+								подвести пациента к осмыслению своей жизни, осознанию своих жизненных ценностей и изменению
+								своего жизненного пути на основе этих ценностей, с принятием полной ответственности за свой
+								выбор.</div>
+						</div>
+						<div class="spollers-faq__item spollers__item">
+							<button type="button" data-spoller class="spollers-faq__title spollers__title">Конфиденциальность?</button>
+							<div class="spollers-faq__body spollers__body">Lorem, ipsum dolor sit amet consectetur adipisicing
+								elit. Quo fuga ratione a est ab eum corporis itaque cumque nulla consequuntur nobis, deserunt
+								illum omnis odit ullam amet inventore maiores unde!</div>
+						</div>
+						<div class="spollers-faq__item spollers__item">
+							<button type="button" data-spoller class="spollers-faq__title spollers__title">Как часто и долго
+								нужно ходить?</button>
+							<div class="spollers-faq__body spollers__body">Lorem ipsum dolor sit, amet consectetur adipisicing
+								elit. Ratione modi ipsum in laudantium excepturi. Earum odio cupiditate voluptatum quidem, magni
+								esse minima optio illo! Cum molestiae ipsum obcaecati voluptatem dolor est qui. Distinctio
+								repellendus, aut deleniti labore necessitatibus ullam maxime.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section page__reviews reviews">
+				<div class="reviews__container">
+					<h3 class="reviews__title title">Отзывы клиентов</h3>
+					<div class="reviews__body">
+						<!-- Оболочка слайдера -->
+						<div class="reviews__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="reviews__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__image">
+										<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__image">
+										<picture><source srcset="img/reviews/02.webp" type="image/webp"><img src="img/reviews/02.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__image">
+										<picture><source srcset="img/reviews/03.webp" type="image/webp"><img src="img/reviews/03.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__image">
+										<picture><source srcset="img/reviews/04.webp" type="image/webp"><img src="img/reviews/04.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__image">
+										<picture><source srcset="img/reviews/05.webp" type="image/webp"><img src="img/reviews/05.jpg" alt=""></picture>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__image">
+										<picture><source srcset="img/reviews/06.webp" type="image/webp"><img src="img/reviews/06.jpg" alt=""></picture>
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна пагинация -->
+							<div class="swiper-pagination"></div>
+							<!-- Если нужна навигация (влево/вправо) -->
+							<button type="button" class="swiper-button-prev"></button>
+							<button type="button" class="swiper-button-next"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section page__get-in-touch get-in-touch">
+				<div class="get-in-touch__container">
+					<h3 class="get-in-touch__title title">Записаться на прием</h3>
+					<div class="get-in-touch__body">
+						<div class="get-in-touch__block">
+							<form action="#" method="POST" class="form get-in-touch__form form-get-in-touch">
+								<div class="form-get-in-touch__inputs">
+									<label for="name" class="form-get-in-touch__label">
+										<input autocomplete="off" placeholder="Имя*" name="form[]" type="text" class="input-name form-get-in-touch__name">
+									</label>
+									<label for="email" class="form-get-in-touch__label">
+										<input name="form[]" autocomplete="off" placeholder="Email*" type="email" name="form[]" class="input-mail form-get-in-touch__email">
+									</label>
+									<label for="topic" class="form-get-in-touch__label form-get-in-touch__label_t">
+										<input name="topic" minlength="1" placeholder="Тема" name="form[]" type="text" class="form-get-in-touch__topic">
+									</label>
+									<label for="message" class="form-get-in-touch__label form-get-in-touch__label_m">
+										<textarea placeholder="Сообщение*" name="message" name="form[]" class="input-message form-get-in-touch__textarea"></textarea>
+									</label>
+								</div>
+								<button type="submit" class="form-get-in-touch__button button">Отправить</button>
+							</form>
+						</div>
+						<div class="get-in-touch__contacts contacts-get-in-touch">
+							<div class="contacts-get-in-touch__info info-contacts-get-in-touch">
+								<div class="info-contacts-get-in-touch__item">
+									<img class="info-contacts-get-in-touch__image" src="img/svg/email.svg" alt="">
+									<a href="mailto:iviya@gmail.com" class="info-contacts-get-in-touch__text">iviya@gmail.com</a>
+								</div>
+								<div class="info-contacts-get-in-touch__item">
+									<img class="info-contacts-get-in-touch__image" src="img/svg/telephone.svg" alt="">
+									<a href="tel:+375335301019" class="info-contacts-get-in-touch__text">+375 33 530-10-19</a>
+								</div>
+							</div>
+							<div class="contacts-get-in-touch__icons icons-contacts-get-in-touch">
+								<div class="icons-contacts-get-in-touch__row">
+									<a href="https://t.me/Ivileya" class="icons-contacts-get-in-touch__icon">
+										<img class="icons-contacts-get-in-touch__svg icons-contacts-get-in-touch__svg_t" src="img/svg/telegram.svg" alt="">
+									</a>
+									<a href="https://www.instagram.com/ivileya/" class="icons-contacts-get-in-touch__icon icons-contacts-get-in-touch__icon_i">
+										<img class="icons-contacts-get-in-touch__svg" src="img/svg/instagram.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">Свою деятельность я осуществляю в соответствии с Закон Республики Беларусь Об оказании
+					психологической помощи,<br> опираясь на принципы конфиденциальности, безопасности, компетентности,
+					добровольности нашего взаимодействия,<br> уважая и соблюдая Ваши права и интересы. <br>
+					ИП Михаськова Ивия Леонидовна. Свидетельство о государственной регистрации №123456 выдано Логойским
+					райисполкомом 23.05.23. УНП 123456789 <br>
+					Юридический адрес: Республика Беларусь, 223050, Минская обл., Логойский р-н, г. Логойск, ул.Калиновского, 1
+					<br>
+					Консультативный кабинет: г.Минск, ул. П. Бровки, 13 - 12 <br>
+					<div class="footer__items">
+						Р/сч: <span class="footer__check">BY04ALFA30132617440010270000</span> в <span class="footer__text-bold">BYN</span> (беларусские рубли) в ЗАО 'Альфа-Банк', БИК: ALFABY2X <br>
+						Р/сч: <span class="footer__check"> BY04ALFA30132617440010270000</span> в <span class="footer__text-bold">EUR</span> (евро) в ЗАО 'Альфа-Банк', БИК: ALFABY2X <br>
+						Р/сч: <span class="footer__check"> BY04ALFA3013261744001027000</span> в <span class="footer__text-bold">RUB</span> (российские рубли) в ЗАО 'Альфа-Банк', БИК: ALFABY2X
+						<div class="copy-tooltip">Скопировано</div>
+					</div>
+				</div>
+				<div class="footer__links">
+					<a href="#" class="footer__link">Договор публичной оферты</a>
+					|
+					<a href="#" class="footer__link">Политика конфиденциальности</a>
+					|
+					<a href="#" class="footer__link">Правила оплаты по карте, возврата платежей и получения услуг</a>
+				</div>
+				<div class="footer__bottom">
+					Development and designed by Marquiz
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230707023936"></script>
+</body>
+
+</html>
