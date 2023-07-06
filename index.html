@@ -13,8 +13,8 @@
 			<nav class="header__nav nav">
 				<ul class="nav__list">
 					<li class="nav__item"><a href="#" class="nav__link">About me</a></li>
-					<li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
 					<li class="nav__item"><a href="#" class="nav__link">Code Example</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
 					<li class="nav__item"><a href="#" class="nav__link">Education</a></li>
 					<li class="nav__item"><a href="#" class="nav__link">Languages</a></li>
 					<li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
@@ -76,8 +76,21 @@
 				</div>
 			</section>
 			<section class="page__example">
-				<div class="example__container">
-					
+				<div class="example__container container">
+					<div class="example__header">
+						<h2 class="example__title title title_2">
+							Code Example
+						</h2>
+					</div>
+					<div class="example__content">
+						<pre class="example__pre pre-examle">	
+<span class="pre-examle__keyword">const</span> cards = document.querySelectorAll(<span class="pre-examle__string">'[data-card]'</span>);
+<span class="pre-examle__keyword">function</span> <span class="pre-examle__title">flipCard</span>(){
+	this.classList.toggle(<span class="pre-examle__string">'_flipped'</span>);
+}
+cards.<span class="pre-examle__keyword">forEach</span>((card) =&gt; card.addEventListener(<span class="pre-examle__string">"click"</span>, flipCard));
+						</pre>
+					</div>
 				</div>
 			</section>
 		</main>

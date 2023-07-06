@@ -127,7 +127,7 @@ p {}
 
 .title_2 {
 	color: #669999;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	position: relative;
 	font-size: 32px;
 	letter-spacing: 2.2px;
@@ -171,6 +171,10 @@ p {}
 .page {}
 
 .page__about {
+	padding: 80px 0;
+}
+
+.page__example {
 	padding: 80px 0;
 }
 
@@ -244,6 +248,7 @@ p {}
 .content-about__image {
 	position: relative;
 	margin-bottom: 40px;
+	overflow: hidden;
 }
 
 .content-about__image::after {
@@ -263,6 +268,11 @@ p {}
 	object-fit: cover;
 	border-radius: 5px;
 	box-shadow: 0 0 20px #cc999950;
+	transition: all 0.3s ease 0s;
+}
+
+.content-about__image>img:hover {
+	transform: scale(1.01);
 }
 
 .content-about__title {
@@ -330,4 +340,42 @@ p {}
 
 .skills-content-about__item:not(:last-child) {
 	margin-bottom: 5px;
+}
+
+/* ============================CODE-EXAMPLE============================ */
+
+.example__container {
+}
+.example__header {
+}
+.example__title {
+}
+
+
+.example__content{
+	display: flex;
+	justify-content: center;
+	background: rgb(240, 240, 240);
+}
+
+.example__pre {
+	overflow-x: auto;
+	padding: 0.5em;
+	color: rgb(68, 68, 68);
+}
+
+.pre-examle {
+}
+
+.pre-examle__keyword {
+	font-weight: 700;
+}
+
+.pre-examle__string {
+	color: rgb(136, 0, 0);
+}
+
+.pre-examle__title {
+	color: rgb(136, 0, 0);
+	font-weight: 700;
 }
