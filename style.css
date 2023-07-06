@@ -33,9 +33,9 @@ body {
 body {
 	color: #252525;
 	letter-spacing: 0.5px;
-	line-height: 1;
+	line-height: 150%;
 	font-family: Montserrat, sans-serif;
-	font-size: 16;
+	font-size: 18px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -111,9 +111,9 @@ h6 {
 	padding: 0 15px;
 	margin: 0 auto;
 }
-p {
-	line-height: 130%;
-}
+
+p {}
+
 .title {}
 
 .title_1,
@@ -121,7 +121,9 @@ p {
 	text-align: center;
 }
 
-.title_1 {}
+.title_1 {
+	line-height: 110%;
+}
 
 .title_2 {
 	color: #669999;
@@ -144,6 +146,25 @@ p {
 
 .title_3 {}
 
+.title_4 {
+	font-size: 24px;
+}
+
+/* ============================MEDIA-QUERIES============================ */
+@media (max-width: 992px) {
+	.about__content {
+		flex-direction: column-reverse;
+	}
+
+	.content-about__block-image {
+		width: 100%;
+		/* flex: 0 0 100%; */
+	}
+
+	.content-about__block_text {
+		/* flex: 0 0 100%; */
+	}
+}
 
 /* ============================PAGE============================ */
 
@@ -216,17 +237,30 @@ p {
 
 .content-about {}
 
-.content-about__block {
-	flex: 0 1 50%;
+.content-about__block-image {
+	flex: 0 0 40%;
 }
 
 .content-about__image {
+	position: relative;
 	margin-bottom: 40px;
 }
 
+.content-about__image::after {
+	content: '';
+	display: block;
+	padding-bottom: 100%;
+}
+
 .content-about__image>img {
-	max-width: 100%;
+	/* max-width: 100%; */
+	/* width: 100%; */
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	border-radius: 5px;
 	box-shadow: 0 0 20px #cc999950;
 }
@@ -245,6 +279,55 @@ p {
 	text-transform: lowercase;
 }
 
+.content-about__block_text {
+	flex: 0 0 60%;
+}
+
 .content-about__text {}
 
-.content-about__paragraph {}
+.content-about__paragraph {
+	font-size: 20px;
+	text-indent: 20pt;
+}
+
+.content-about__skills {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.skills-content-about__block {}
+
+.skills-content-about__title {
+	font-weight: 500;
+	letter-spacing: 1.6px;
+	margin: 50px 0 20px;
+}
+
+.skills-content-about__list {
+	padding-left: 20px;
+}
+
+.skills-content-about__item {
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}
+
+.skills-content-about__item::before {
+	content: '';
+	position: absolute;
+	left: -20px;
+	top: 50%;
+	transform: translate(0px, -50%);
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #cc9999;
+
+}
+
+.skills-content-about__item:not(:last-child) {
+	margin-bottom: 5px;
+}
