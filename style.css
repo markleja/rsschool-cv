@@ -148,25 +148,23 @@ p {}
 
 /* ============================MEDIA-QUERIES============================ */
 @media (max-width: 992px) {
-	.about__content {
+	.about__body {
 		flex-direction: column-reverse;
 	}
 
 	.content-about__block-image {
 		width: 100%;
-		/* flex: 0 0 100%; */
 	}
 
 	.content-about__block_text {
-		/* flex: 0 0 100%; */
 	}
 }
 
 @media(max-width: 768px) {
-	.education__content{
+	.education__content {
 		flex-direction: column;
 	}
-} 
+}
 
 /* ============================HEADER============================ */
 
@@ -229,18 +227,15 @@ p {}
 	color: #fff;
 }
 
-.page__education{
+.page__education {
 	padding: 80px 0;
 }
+
 /* ============================ABOUT============================ */
 
-.about {	
-}
+.about {}
 
-.about__container {
-}
-
-.container {}
+.about__container {}
 
 .about__header {}
 
@@ -250,11 +245,13 @@ p {}
 	display: flex;
 	gap: 60px;
 }
-.about__content{}
-.about__content_i{
+
+.about__content {}
+
+.about__content_i {
 	flex: 0 0 40%;
 }
-.content-about {}
+
 .content-about__image {
 	position: relative;
 	margin-bottom: 40px;
@@ -283,11 +280,10 @@ p {}
 	transform: scale(1.01);
 }
 
-.content-about__contacts{
-}
+.content-about__contacts {}
 
 
-.contacts-content-about__title{
+.contacts-content-about__title {
 	margin-bottom: 20px;
 	font-size: 26px;
 	letter-spacing: 1.3px;
@@ -298,7 +294,8 @@ p {}
 .contacts-content-about__item {
 	position: relative;
 }
-.contacts-content-about__item:not(:last-child){
+
+.contacts-content-about__item:not(:last-child) {
 	margin-bottom: 5px;
 }
 
@@ -308,14 +305,11 @@ p {}
 	transition: color 0.3s ease 0s;
 }
 
-.contacts-content-about__link:hover{
+.contacts-content-about__link:hover {
 	color: #4c7272;
 	text-decoration: underline;
 }
 
-.about__content_t {
-	flex: 0 0 60%;
-}
 .content-about__header {
 	text-align: center;
 	margin-bottom: 40px;
@@ -448,7 +442,7 @@ p {}
 	transform: scale(1.01);
 }
 
-.project__item:hover > .item-project__title {
+.project__item:hover>.item-project__title {
 	color: #cc9999;
 }
 
@@ -482,7 +476,7 @@ p {}
 	border-radius: 5px;
 }
 
-.item-project__label_white{
+.item-project__label_white {
 	color: #fff;
 }
 
@@ -497,48 +491,52 @@ p {}
 
 /* ============================EDUCATION============================ */
 
-.education__container {
-}
-.education__header {
-}
-.education__title {
-}
+.education__container {}
+
+.education__header {}
+
+.education__title {}
+
 .education__content {
 	display: flex;
 	justify-content: space-around;
 	gap: 10px;
 }
-.content-education {
-}
-.content-education__block {
-}
+
+.content-education {}
+
+.content-education__block {}
+
 .content-education__title {
 	font-size: 22px;
 	font-weight: 500;
 	letter-spacing: 0.7px;
 	margin-bottom: 15px;
 }
-.content-education__text {
-}
-.content-education__text_bold {
-}
-.content-education__list {
-}
+
+.content-education__text {}
+
+.content-education__text_bold {}
+
+.content-education__list {}
+
 .content-education__item {
 	padding-left: 15px;
 	position: relative;
 }
-.content-education__item::before{
+
+.content-education__item::before {
 	content: '';
 	position: absolute;
 	width: 5px;
 	height: 5px;
 	top: 50%;
 	left: 0px;
-	transform: translate(0px,-50%);
+	transform: translate(0px, -50%);
 	background-color: #cc9999;
 	border-radius: 50%;
 }
+
 .content-education__text-itallic {
 	font-style: italic;
 	font-weight: 300;
