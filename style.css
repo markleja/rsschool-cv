@@ -149,9 +149,6 @@ p {}
 	.content-about__block-image {
 		width: 100%;
 	}
-
-	.content-about__block_text {
-	}
 }
 
 @media(max-width: 768px) {
@@ -369,8 +366,7 @@ p {}
 	content: '';
 	position: absolute;
 	left: -20px;
-	top: 50%;
-	transform: translate(0px, -50%);
+	top: 11px;
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
@@ -504,8 +500,8 @@ p {}
 
 .education__content {
 	display: flex;
-	justify-content: space-around;
-	gap: 10px;
+	column-gap: 100px;
+	row-gap: 30px;
 }
 
 .content-education {}
@@ -533,11 +529,11 @@ p {}
 .content-education__item::before {
 	content: '';
 	position: absolute;
+	display: inline-block;
 	width: 5px;
 	height: 5px;
-	top: 50%;
+	top: 11px;
 	left: 0px;
-	transform: translate(0px, -50%);
 	background-color: #cc9999;
 	border-radius: 50%;
 }
