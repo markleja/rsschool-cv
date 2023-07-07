@@ -166,6 +166,15 @@ p {}
 	}
 }
 
+@media(max-width: 480px) {
+	.footer__container {
+		flex-direction: column;
+	}
+	.footer__item:nth-child(2){
+		order: 3;
+	}
+}
+
 /* ============================HEADER============================ */
 
 .header {
@@ -540,4 +549,41 @@ p {}
 .content-education__text-itallic {
 	font-style: italic;
 	font-weight: 300;
+}
+
+/* ============================EDUCATION============================ */
+
+.footer {
+	padding: 20px 0;
+}
+.footer__container {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__item {
+	position: relative;
+}
+.footer__icon {
+	width: 24px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0px,-50%);
+	left: 0;
+	height: 24px;
+}
+.footer__link {
+	padding-left: 35px;
+}
+
+.footer__link:hover{
+	color: #669999;
+	text-decoration: underline;
+}
+.footer__link:hover > .footer__icon {
+	transform: translate(0px,10px);
+}
+.footer__rsschool {
+	width: 118px;
 }
