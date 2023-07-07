@@ -193,12 +193,12 @@ p {}
 
 .page__example {
 	padding: 80px 0;
-	color: #fff;
+	background-color: #fff;
 }
 
 .page__projects {
 	padding: 0 0 80px 0;
-	color: #fff;
+	background-color: #fff;
 }
 
 .page__education {
