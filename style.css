@@ -116,11 +116,6 @@ p {}
 
 .title {}
 
-.title_1,
-.title_3 {
-	text-align: center;
-}
-
 .title_1 {
 	line-height: 110%;
 }
@@ -132,6 +127,7 @@ p {}
 	font-size: 32px;
 	letter-spacing: 2.2px;
 	font-weight: 700;
+	line-height: 130%;
 }
 
 .title_2::before {
@@ -238,9 +234,11 @@ p {}
 }
 /* ============================ABOUT============================ */
 
-.about {}
+.about {	
+}
 
-.about__container {}
+.about__container {
+}
 
 .container {}
 
@@ -250,7 +248,7 @@ p {}
 
 .about__content {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	gap: 60px;
 }
 
@@ -264,6 +262,7 @@ p {}
 	position: relative;
 	margin-bottom: 40px;
 	overflow: hidden;
+	border-radius: 5px;
 }
 
 .content-about__image::after {
@@ -279,13 +278,50 @@ p {}
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	border-radius: 5px;
 	box-shadow: 0 0 20px #cc999950;
 	transition: all 0.3s ease 0s;
 }
 
 .content-about__image>img:hover {
 	transform: scale(1.01);
+}
+
+.content-about__contacts{
+}
+
+
+.contacts-content-about__title{
+	margin-bottom: 20px;
+	font-size: 26px;
+	letter-spacing: 1.3px;
+	font-weight: 500;
+	color: #444;
+}
+
+.contacts-content-about__item {
+	position: relative;
+}
+.contacts-content-about__item:not(:last-child){
+	margin-bottom: 5px;
+}
+
+.contacts-content-about__link {
+	font-style: italic;
+	color: #669999;
+	transition: color 0.3s ease 0s;
+}
+
+.contacts-content-about__link:hover{
+	color: #4c7272;
+	text-decoration: underline;
+}
+
+.content-about__block_text {
+	flex: 0 0 60%;
+}
+.content-about__header {
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 .content-about__title {
@@ -302,11 +338,7 @@ p {}
 	text-transform: lowercase;
 }
 
-.content-about__block_text {
-	flex: 0 0 60%;
-}
-
-.content-about__text {}
+.content-about__body {}
 
 .content-about__paragraph {
 	font-size: 20px;
@@ -510,7 +542,6 @@ p {}
 	background-color: #cc9999;
 	border-radius: 50%;
 }
-
 .content-education__text-itallic {
 	font-style: italic;
 	font-weight: 300;
