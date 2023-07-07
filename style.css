@@ -166,6 +166,12 @@ p {}
 	}
 }
 
+@media(max-width: 768px) {
+	.education__content{
+		flex-direction: column;
+	}
+} 
+
 /* ============================HEADER============================ */
 
 .header {
@@ -471,6 +477,7 @@ p {}
 .education__content {
 	display: flex;
 	justify-content: space-around;
+	gap: 10px;
 }
 .content-education {
 }
