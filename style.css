@@ -176,6 +176,12 @@ p {}
 
 .page__example {
 	padding: 80px 0;
+	color: #fff;
+}
+
+.page__projects {
+	padding: 80px 0;
+	color: #fff;
 }
 
 /* ============================HEADER============================ */
@@ -258,8 +264,6 @@ p {}
 }
 
 .content-about__image>img {
-	/* max-width: 100%; */
-	/* width: 100%; */
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -344,18 +348,17 @@ p {}
 
 /* ============================CODE-EXAMPLE============================ */
 
-.example__container {
-}
-.example__header {
-}
-.example__title {
-}
+.example__container {}
 
+.example__header {}
 
-.example__content{
+.example__title {}
+
+.example__content {
 	display: flex;
 	justify-content: center;
 	background: rgb(240, 240, 240);
+	border-radius: 5px;
 }
 
 .example__pre {
@@ -364,8 +367,7 @@ p {}
 	color: rgb(68, 68, 68);
 }
 
-.pre-examle {
-}
+.pre-examle {}
 
 .pre-examle__keyword {
 	font-weight: 700;
@@ -378,4 +380,81 @@ p {}
 .pre-examle__title {
 	color: rgb(136, 0, 0);
 	font-weight: 700;
+}
+
+/* ============================PROJECT-EXAMPLE============================ */
+
+.projects__container {}
+
+.projects__header {}
+
+.projects__title {}
+
+.projects__items {
+	/* display: flex; */
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 20px;
+}
+
+.project__item {
+	/* flex: 0 0 33.333%; */
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: border 0.3s ease 0s, transform 0.3s ease 0s, box-shadow 0.3s ease 0.1s;
+	border: 1px solid #eeeeee;
+}
+
+.project__item:hover {
+	box-shadow: 0 0 10px #cc99997a;
+	border: 1px solid #ebb1b180;
+	transform: scale(1.01);
+}
+
+.project__item:hover > .item-project__title {
+	color: #cc9999;
+}
+
+
+.item-project {}
+
+.item-project__image {
+	position: relative;
+	border-bottom: 1px solid #eee;
+}
+
+.item-project__image img {
+	max-width: 100%;
+}
+
+.item-project__labels {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	display: flex;
+	gap: 15px;
+}
+
+.item-project__label {
+	font-size: 12px;
+	padding: 1px 8px;
+	backdrop-filter: blur(5px);
+	background-color: #ffc2c286;
+	color: #111;
+	font-weight: 300;
+	border-radius: 5px;
+}
+
+.item-project__label_white{
+	color: #fff;
+}
+
+.item-project__title {
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	text-align: center;
+	color: #333;
+	transition: all 0.3s ease 0s;
 }
