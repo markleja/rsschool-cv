@@ -114,8 +114,6 @@ h6 {
 	margin: 0 auto;
 }
 
-p {}
-
 .title_2 {
 	color: #669999;
 	margin-bottom: 50px;
@@ -158,8 +156,6 @@ p {}
 	padding: 25px 0;
 }
 
-.nav {}
-
 .nav__list {
 	display: flex;
 	justify-content: center;
@@ -167,8 +163,6 @@ p {}
 	flex-wrap: wrap;
 	gap: 35px;
 }
-
-.nav__item {}
 
 .nav__link {
 	color: #444;
@@ -184,8 +178,6 @@ p {}
 }
 
 /* ============================PAGE============================ */
-
-.page {}
 
 .page__about {
 	padding: 80px 0;
@@ -207,20 +199,10 @@ p {}
 
 /* ============================ABOUT============================ */
 
-.about {}
-
-.about__container {}
-
-.about__header {}
-
-.about__title {}
-
 .about__body {
 	display: flex;
 	gap: 60px;
 }
-
-.about__content {}
 
 .about__content_i {
 	flex: 0 0 40%;
@@ -253,9 +235,6 @@ p {}
 .content-about__image>img:hover {
 	transform: scale(1.01);
 }
-
-.content-about__contacts {}
-
 
 .contacts-content-about__title {
 	margin-bottom: 20px;
@@ -304,8 +283,6 @@ p {}
 	text-transform: lowercase;
 }
 
-.content-about__body {}
-
 .content-about__paragraph {
 	font-size: 20px;
 	text-indent: 20pt;
@@ -317,8 +294,6 @@ p {}
 	gap: 10px;
 	flex-wrap: wrap;
 }
-
-.skills-content-about__block {}
 
 .skills-content-about__title {
 	font-weight: 500;
@@ -354,12 +329,6 @@ p {}
 
 /* ============================CODE-EXAMPLE============================ */
 
-.example__container {}
-
-.example__header {}
-
-.example__title {}
-
 .example__content {
 	display: flex;
 	justify-content: center;
@@ -372,8 +341,6 @@ p {}
 	padding: 0.5em;
 	color: rgb(68, 68, 68);
 }
-
-.pre-examle {}
 
 .pre-examle__keyword {
 	font-weight: 700;
@@ -389,12 +356,6 @@ p {}
 }
 
 /* ============================PROJECT-EXAMPLE============================ */
-
-.projects__container {}
-
-.projects__header {}
-
-.projects__title {}
 
 .projects__items {
 	display: grid;
@@ -419,9 +380,6 @@ p {}
 .project__item:hover>.item-project__title {
 	color: #cc9999;
 }
-
-
-.item-project {}
 
 .item-project__image {
 	position: relative;
@@ -466,21 +424,11 @@ p {}
 
 /* ============================EDUCATION============================ */
 
-.education__container {}
-
-.education__header {}
-
-.education__title {}
-
 .education__content {
 	display: flex;
 	column-gap: 100px;
 	row-gap: 30px;
 }
-
-.content-education {}
-
-.content-education__block {}
 
 .content-education__title {
 	font-size: 22px;
@@ -488,12 +436,6 @@ p {}
 	letter-spacing: 0.7px;
 	margin-bottom: 15px;
 }
-
-.content-education__text {}
-
-.content-education__text_bold {}
-
-.content-education__list {}
 
 .content-education__item {
 	padding-left: 15px;
