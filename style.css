@@ -246,18 +246,15 @@ p {}
 
 .about__title {}
 
-.about__content {
+.about__body {
 	display: flex;
-	/* align-items: center; */
 	gap: 60px;
 }
-
-.content-about {}
-
-.content-about__block-image {
+.about__content{}
+.about__content_i{
 	flex: 0 0 40%;
 }
-
+.content-about {}
 .content-about__image {
 	position: relative;
 	margin-bottom: 40px;
@@ -316,7 +313,7 @@ p {}
 	text-decoration: underline;
 }
 
-.content-about__block_text {
+.about__content_t {
 	flex: 0 0 60%;
 }
 .content-about__header {
