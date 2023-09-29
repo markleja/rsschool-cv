@@ -359,7 +359,7 @@ h6 {
 
 .projects__items {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
 	gap: 20px;
 }
 
@@ -369,6 +369,16 @@ h6 {
 	overflow: hidden;
 	transition: border 0.3s ease 0s, transform 0.3s ease 0s, box-shadow 0.3s ease 0.1s;
 	border: 1px solid #eeeeee;
+}
+
+.project__item:first-child{
+	grid-area: span 2 / span 2;
+}
+
+@media (max-width: 768px){
+	.project__item:first-child{
+		grid-area: 1 / 1;
+	}
 }
 
 .project__item:hover {
