@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>CV</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__container container">
+			<nav class="header__nav nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+					<li class="nav__item"><a href="#example" class="nav__link">Code Example</a></li>
+					<li class="nav__item"><a href="#projects" class="nav__link">Example Projects</a></li>
+					<li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="wrapper">
+		<main class="page">
+			<section id="about" class="page__about about">
+				<div class="about__container container">
+					<div class="about__header">
+						<h2 class="about__title title title_2">
+							About me
+						</h2>
+					</div>
+					<div class="about__body">
+						<div class="about__content about__content_i content-about">
+							<div class="content-about__image">
+								<img src="img/about/my-photo.jpg" alt="My photo">
+							</div>
+							<div class="content-about__contacts contacts-content-about">
+								<h3 class="contacts-content-about__title title title_3">Contact me</h3>
+								<ul class="contacts-content-about__list">
+									<li class="contacts-content-about__item">Location: Miensk, Belarus</li>
+									<li class="contacts-content-about__item">Phone: <a href="tel:+375298201640" class="contacts-content-about__link">+375(29)820-16-40</a></li>
+									<li class="contacts-content-about__item">E-mail: <a href="mailto:mark.leia9@gmail.com" class="contacts-content-about__link">mark.leia9@gmail.com</a></li>
+									<li class="contacts-content-about__item">Telegram: <a href="https://t.me/marquiz_z" class="contacts-content-about__link">marquiz_z</a></li>
+									<li class="contacts-content-about__item">GitHub: <a href="https://github.com/markleja/" class="contacts-content-about__link">markleja</a></li>
+									<li class="contacts-content-about__item">Discord: <a href="https://discord.com/users/marquiz_z/" class="contacts-content-about__link">marquiz_z</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="about__content content-about">
+							<div class="content-about__header">
+								<h1 class="content-about__title title title_1">Mark Shapiatsko</h1>
+								<h3 class="content-about__subtitle title title_3">Junior Frontend Developer</h3>
+							</div>
+							<div class="content-about__body">
+								<p class="content-about__paragraph">Hi! I am 24. In the fall of 2022, I started learning Frontend development on my own, because I want to change job and start a new career. But when I started learning JS I ran into some difficulties. And here I am. I hope that RSS will help me.</p>
+							</div>
+							<div class="content-about__skills skills-content-about">
+								<div class="skills-content-about__block">
+									<h4 class="skills-content-about__title title title_4">Soft Skills:</h4>
+									<ul class="skills-content-about__list">
+										<li class="skills-content-about__item">Perseverance</li>
+										<li class="skills-content-about__item">Attention to detail</li>
+										<li class="skills-content-about__item">Receptive</li>
+										<li class="skills-content-about__item">Tend to visualize information</li>
+										<li class="skills-content-about__item">Analytic mind</li>
+										<li class="skills-content-about__item">Ability to learn</li>
+										<li class="skills-content-about__item">Critical thinking</li>
+										<li class="skills-content-about__item">Stress resistance</li>
+										<li class="skills-content-about__item">Ability to self-organize</li>
+									</ul>
+								</div>
+								<div class="skills-content-about__block">
+									<h4 class="skills-content-about__title title title_4">Hard Skills:</h4>
+									<ul class="skills-content-about__list">
+										<li class="skills-content-about__item">HTML</li>
+										<li class="skills-content-about__item">CSS (BEM, SCSS/SASS)</li>
+										<li class="skills-content-about__item">Figma, Avocode</li>
+										<li class="skills-content-about__item">JavaScript</li>
+										<li class="skills-content-about__item">Module Bundlers: Gulp, Webpack</li>
+										<li class="skills-content-about__item">Version control: Git</li>
+										<li class="skills-content-about__item">Editors: VSCode, Sublime text</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="example" class="page__example example">
+				<div class="example__container container">
+					<div class="example__header">
+						<h2 class="example__title title title_2">
+							Code Example
+						</h2>
+					</div>
+					<div class="example__content">
+						<pre class="example__pre pre-examle">	
+<span class="pre-examle__keyword">const</span> cards = document.querySelectorAll(<span class="pre-examle__string">'[data-card]'</span>);
+<span class="pre-examle__keyword">function</span> <span class="pre-examle__title">flipCard</span>(){
+	this.classList.toggle(<span class="pre-examle__string">'_flipped'</span>);
+}
+cards.<span class="pre-examle__keyword">forEach</span>((card) =&gt; card.addEventListener(<span class="pre-examle__string">"click"</span>, flipCard));
+						</pre>
+					</div>
+				</div>
+			</section>
+			<section id="projects" class="page__projects projects">
+				<div class="projects__container container">
+					<div class="projects__header">
+						<h2 class="projects__title title title_2">
+							Example Projects
+						</h2>
+					</div>
+					<div class="projects__items">
+						<a href="https://markleja.github.io/rsschool-cv/ivija-leja/" target="_blank" class="project__item item-project">
+							<div class="item-project__image">
+								<img src="img/example-projects/ivija-leja.png" alt="Ivija Leja Project">
+								<div class="item-project__labels">
+									<span class="item-project__label">HTML</span>
+									<span class="item-project__label">CSS</span>
+									<span class="item-project__label">JS</span>
+								</div>
+							</div>
+							<div class="item-project__title">
+								Ivija Leja
+							</div>
+						</a>
+						<a href="https://markleja.github.io/rsschool-cv/gocorona/" target="_blank" class="project__item item-project">
+							<div class="item-project__image">
+								<img src="img/example-projects/gocorona.png" alt="Gocorna Project">
+								<div class="item-project__labels">
+									<span class="item-project__label">HTML</span>
+									<span class="item-project__label">CSS</span>
+									<span class="item-project__label">JS</span>
+								</div>
+							</div>
+							<div class="item-project__title">
+								Gocorona
+							</div>
+						</a>
+						<a href="https://markleja.github.io/rsschool-cv/growfy/" target="_blank" class="project__item item-project">
+							<div class="item-project__image">
+								<img src="img/example-projects/growfy.png" alt="Growfy Project">
+								<div class="item-project__labels">
+									<span class="item-project__label item-project__label_white">HTML</span>
+									<span class="item-project__label item-project__label_white">CSS</span>
+									<span class="item-project__label item-project__label_white">JS</span>
+								</div>
+							</div>
+							<div class="item-project__title">
+								Growfy
+							</div>
+						</a>
+						<a href="https://markleja.github.io/rsschool-cv/relvise/" target="_blank" class="project__item item-project">
+							<div class="item-project__image">
+								<img src="img/example-projects/relvise.png" alt="Ivija Leja Project">
+								<div class="item-project__labels">
+									<span class="item-project__label">HTML</span>
+									<span class="item-project__label">CSS</span>
+									<span class="item-project__label">JS</span>
+								</div>
+							</div>
+							<div class="item-project__title">
+								Relvise
+							</div>
+						</a>
+						<a href="https://markleja.github.io/rsschool-cv/realestate/" target="_blank" class="project__item item-project">
+							<div class="item-project__image">
+								<img src="img/example-projects/realestate.png" alt="Ivija Leja Project">
+								<div class="item-project__labels">
+									<span class="item-project__label">HTML</span>
+									<span class="item-project__label">CSS</span>
+									<span class="item-project__label">JS</span>
+								</div>
+							</div>
+							<div class="item-project__title">
+								RealEstate
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section id="education" class="page__education education">
+				<div class="education__container container">
+					<div class="education__header">
+						<h2 class="education__title title title_2">
+							Education
+						</h2>
+					</div>
+					<div class="education__content content-education">
+						<div class="content-education__block">
+							<h5 class="content-education__title">Institution</h5>
+							<span class="content-education__text">Belarusian State Academy of Communications<br>Specialty: Telecommunication Networks Software</span>
+						</div>
+						<div class="content-education__block">
+							<h5 class="content-education__title">Languages</h5>
+							<ul class="content-education__list">
+								<li class="content-education__item">Belarusian <span class="content-education__text-itallic">(native)</span></li>
+								<li class="content-education__item">Russian <span class="content-education__text-itallic">(native)</span></li>
+								<li class="content-education__item">English <span class="content-education__text-itallic">(A2)</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__item"><img class="footer__icon" src="img/footer/github.svg" alt="GitHub Image "><a href="https://github.com/markleja/" class="footer__link">markleja</a></div>
+			<div class="footer__item">2023 ©</div>
+			<div class="footer__item">
+				<div class="footer__rsschool">
+					<a href="https://rs.school/js/"><img src="img/footer/rsschool.svg" alt="RSSchool"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
